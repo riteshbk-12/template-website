@@ -1,0 +1,331 @@
+/* LikeButton.css */
+/* Using 'ux-like-btn' namespace to avoid collisions */
+
+.ux-like-btn__container {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.ux-like-btn__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(30, 30, 35, 0.8);
+  color: rgba(255, 255, 255, 0.85);
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.ux-like-btn__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0)
+  );
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.ux-like-btn__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.ux-like-btn__button:hover::before {
+  opacity: 1;
+}
+
+.ux-like-btn__button:active {
+  transform: translateY(0);
+}
+
+.ux-like-btn__button--active {
+  background-color: rgba(50, 120, 255, 0.85);
+  border-color: rgba(70, 140, 255, 0.4);
+  color: white;
+}
+
+.ux-like-btn__button--active:hover {
+  background-color: rgba(65, 130, 255, 0.95);
+}
+
+.ux-like-btn__icon {
+  font-size: 16px;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.ux-like-btn__button--active .ux-like-btn__icon {
+  transform: scale(1.2);
+}
+
+.ux-like-btn__text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Animation for when button is clicked */
+@keyframes ux-like-btn-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(65, 130, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(65, 130, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(65, 130, 255, 0);
+  }
+}
+
+.ux-like-btn__button--active:focus {
+  animation: ux-like-btn-pulse 1.5s;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .ux-like-btn__button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  
+  .ux-like-btn__icon {
+    font-size: 14px;
+  }
+}
+
+/* Component Info Styles */
+.component-info-container {
+  padding-top: 80px;
+  width: auto;
+  margin: 0;
+  padding: 2rem;
+  color: #e4e4e7;
+}
+
+.component-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .component-header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.component-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(90deg, #e4e4e7 0%, #a1a1aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  color: #a1a1aa;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.customize-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(39, 39, 42, 0.8);
+  border: 1px solid #3f3f46;
+  color: #e4e4e7;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.customize-button:hover {
+  background-color: rgba(63, 63, 70, 0.8);
+  border-color: #52525b;
+}
+
+.customize-button .icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Component content with fixed consistent heights */
+.component-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .component-content {
+    flex-direction: row;
+    align-items: flex-start; /* Align at the top */
+  }
+}
+
+/* Make both sections exactly the same dimensions */
+.preview-section,
+.code-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fixed card height */
+.card {
+  background-color: rgba(24, 24, 27, 0.8);
+  border: 1px solid #27272a;
+  height: 500px; /* Fixed height of 500px */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: rgba(39, 39, 42, 0.5);
+  border-bottom: 1px solid #3f3f46;
+  flex-shrink: 0; /* Prevent header from shrinking */
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e4e4e7;
+}
+
+.card-content {
+  padding: 1.5rem;
+  flex: 1;
+  
+}
+
+.preview-container {
+  border: 1px solid #3f3f46;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background-color: #18181b;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Tab styles with fixed heights */
+.tabs {
+  display: flex;
+  margin-bottom: 0; /* Remove margin to ensure alignment */
+  border-bottom: 1px solid #3f3f46;
+  flex-shrink: 0; /* Prevent tabs from shrinking */
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: #a1a1aa;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.tab:hover {
+  color: #e4e4e7;
+}
+
+.tab.active {
+  color: #e4e4e7;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3b82f6;
+}
+
+/* Ensure tab content has same height as card */
+.tab-content {
+  height: 500px; /* Match card height exactly */
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background-color: transparent;
+  border: none;
+  color: #a1a1aa;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 0.25rem;
+}
+
+.copy-button:hover {
+  color: #e4e4e7;
+  background-color: rgba(63, 63, 70, 0.5);
+}
+
+.copy-button .icon {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.separator {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(63, 63, 70, 0) 0%, rgba(63, 63, 70, 0.8) 50%, rgba(63, 63, 70, 0) 100%);
+  margin: 3rem 0;
+  clear: both; /* Ensure separator clears floating elements */
+}
+
+/* Helper class to ensure proper alignment */
+@media (min-width: 1024px) {
+  .component-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

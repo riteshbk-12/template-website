@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: space-around ;
+    background-color:#00254B;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.dropbox {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 200px;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  
+  .dropbox ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropbox li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropbox li:hover {
+    background-color: #f0f0f0;
+  }

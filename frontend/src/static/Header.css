@@ -1,0 +1,18 @@
+.headerIcon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.search-box{
+    width: 600px;
+    padding: 10px;
+}
+
+.search-box input{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}

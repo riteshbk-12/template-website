@@ -1,0 +1,7 @@
+.indexview{
+    position: relative;
+    height: 90vh;
+    width: 200px;
+    background-color: #3d3535;
+    overflow-y: auto;
+}

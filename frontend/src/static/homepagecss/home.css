@@ -1,0 +1,97 @@
+body{
+    padding-top: 60;
+    background: #0a0a0a url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+    height: 100%;
+    font-family: Georgia, serif;
+}
+.navdiv{
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.navbar-links{
+    margin-top: 15px;
+    display: flex;
+    list-style:none;
+    font-family: Georgia, serif;
+    
+    
+}
+.navbar-links a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+.navbar-links li{
+
+    padding-right: 45px;
+    padding-left:0px;
+    
+
+}
+.admin{
+    font-family: Georgia, serif;
+    margin-left: 38%;
+}
+.admin a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+.searchdiv{
+    
+    margin-left: 1.5%;
+    height: 40px;
+    
+}
+.searchdiv input{
+    height: 40;
+    border:none;
+    box-shadow: 1px 2px 2px black;
+}
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.searchdiv input::placeholder{
+    text-align: center;
+}
+/* .navbar-links a:hover{
+    background-color: #ccc;
+    border-radius: 10px;
+    transform: scale(1.5);
+   
+} */
+ .searchdiv input:focus{
+    border:none;
+    outline: none;
+    
+ }
+ .para{
+    font-size: 40;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 500px;
+ }
+

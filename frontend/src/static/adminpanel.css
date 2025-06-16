@@ -1,0 +1,16 @@
+.admin-panel {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background: 
+#0a0a0a url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+color: #f8f9fa;
+
+  }
+  
+  .admin-content {
+    flex: 1;
+    overflow: auto;
+  }
+  
+  

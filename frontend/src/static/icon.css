@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  width: 5px; /* Width of vertical scrollbar */
+  height: 5px;
+  background-color: #1b1b1b;
+  
+   /* Height of horizontal scrollbar */
+}
+::-webkit-scrollbar-thumb {
+  background: #747272; /* Dark grey scroll handle */
+  border-radius: 4px;}

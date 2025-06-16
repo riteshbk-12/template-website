@@ -1,0 +1,291 @@
+.hero-section {   
+  position: relative;   
+  height: 100vh;   
+  display: flex;   
+  align-items: center;   
+  padding: 0 1rem;   
+  overflow: hidden;
+  /* Add a dark gradient background */
+  background: url(https://www.transparenttextures.com/patterns/dark-mosaic.png) rgb(10, 10, 10);
+  
+  height: 100vh;
+}  
+
+.hero-section::before {   
+  content: "";   
+  position: absolute;   
+  top: 0;   
+  left: 0;   
+  right: 0;   
+  bottom: 0;   
+  background: none; /* Removed grid pattern */   
+  opacity: 0.7;   
+  z-index: 0; 
+}  
+
+.hero-overlay {   
+  position: absolute;   
+  top: 0;   
+  left: 0;   
+  right: 0;   
+  bottom: 0;   
+  background: none; /* Removed gradient */   
+  z-index: 1; 
+}  
+
+.hero-container {   
+  position: relative;   
+  z-index: 2;   
+  width: 100%;   
+  max-width: var(--container-width);   
+  display: flex;   
+  justify-content: space-between;   
+  align-items: center;   
+  margin: 0 auto;   
+  gap: 2rem; 
+}  
+
+.hero-content {   
+  text-align: left;   
+  max-width: 55%; 
+}  
+
+.hero-title {   
+  font-size: 4rem;   
+  font-weight: 800;   
+  line-height: 1.1;   
+  margin-bottom: 1.5rem;   
+  color: white; 
+}  
+
+/* New styles for the animated title */
+.title-wrapper {
+  display: inline-block;
+  background: linear-gradient(90deg, #a855f7, #3b82f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(168, 85, 247, 0.5);
+  display: flex;
+}
+
+.title-letter {
+  display: inline-block;
+  transform-origin: center bottom;
+}
+
+.hero-description {   
+  font-size: 1.15rem;   
+  color: #adb5bd;   
+  margin-bottom: 2rem;   
+  max-width: 550px;   
+  line-height: 1.5; 
+}  
+
+.hero-buttons {   
+  display: flex;   
+  gap: 1rem; 
+}  
+
+.hero-section .btn {   
+  padding: 0.75rem 1.5rem;   
+  border-radius: 6px;   
+  font-weight: 600;   
+  font-size: 0.95rem;   
+  cursor: pointer;   
+  transition: all 0.2s ease;   
+  border: none; 
+}  
+
+.btn-primary {   
+  background-color: #a855f7;   
+  color: white; 
+}  
+
+.btn-primary:hover {   
+  background-color: #9333ea;   
+  transform: translateY(-2px); 
+}  
+
+.btn-secondary {   
+  background-color: transparent;   
+  color: white;   
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+}  
+
+.btn-secondary:hover {   
+  background-color: rgba(255, 255, 255, 0.1);   
+  transform: translateY(-2px); 
+}  
+
+/* Floating windows styles */ 
+.floating-windows-container {   
+  position: relative;   
+  width: 45%;   
+  height: 400px; 
+}  
+
+.browser-window {   
+  position: relative;   
+  background-color: white;   
+  border-radius: 8px;   
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);   
+  width: 100%;   
+  max-width: 500px;   
+  overflow: hidden;   
+  z-index: 10;   
+  height: 480px;   
+  transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); 
+}  
+
+.browser-window:hover {   
+  transform: perspective(1000px) rotateY(-3deg) rotateX(3deg) scale(1.02); 
+}  
+
+/* Update browser header */
+.browser-header {
+  background-color: #f1f3f5;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+}  
+
+.browser-dots {   
+  display: flex;   
+  gap: 6px; 
+}  
+
+.browser-dot {   
+  width: 12px;   
+  height: 12px;   
+  border-radius: 50%;   
+  transition: transform 0.2s ease; 
+}  
+
+.browser-window:hover .browser-dot {   
+  transform: scale(1.1); 
+}  
+
+.browser-dot.red {   
+  background-color: #ff5f57; 
+}  
+
+.browser-dot.yellow {   
+  background-color: #ffbd2e; 
+}  
+
+.browser-dot.green {   
+  background-color: #28c840; 
+}  
+
+/* Enhanced browser address bar */
+.browser-address {
+  flex-grow: 1;
+  text-align: center;
+  color: #495057;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 2px 8px;
+  margin: 0 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Update the browser address bar styling */
+.website-name {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: #9333ea;
+  position: relative;
+  background: linear-gradient(90deg, #a855f7, #3b82f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+
+.website-name::before {
+  content: "🚀 ";
+  margin-right: 3px;
+}
+
+.browser-content {   
+  height: 280px;   
+  background-color: #fff; 
+}  
+
+.floating-window {   
+  position: absolute;   
+  background-color: white;   
+  border-radius: 8px;   
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);   
+  z-index: 10;   
+  transition: transform 0.3s ease; 
+}  
+
+.floating-window:hover {   
+  transform: scale(1.05); 
+}  
+
+.window-1 {   
+  width: 180px;   
+  height: 140px;   
+  top: -30px;   
+  right: -20px; 
+}  
+
+.window-2 {   
+  width: 180px;   
+  height: 140px;   
+  bottom: -110px;   
+  left: -70px; 
+}  
+
+@media (max-width: 992px) {   
+  .hero-container {     
+    flex-direction: column;     
+    padding: 3rem 1rem;   
+  }      
+  
+  .hero-content {     
+    text-align: center;     
+    max-width: 100%;     
+    order: 2;   
+  }      
+  
+  .floating-windows-container {     
+    width: 100%;     
+    max-width: 500px;     
+    margin-bottom: 3rem;     
+    order: 1;   
+  }      
+  
+  .hero-buttons {     
+    justify-content: center;   
+  } 
+}  
+
+@media (max-width: 768px) {   
+  .hero-title {     
+    font-size: 2.5rem;   
+  }      
+  
+  .hero-description {     
+    font-size: 1rem;   
+  }      
+  
+  .hero-buttons {     
+    flex-direction: column;     
+    gap: 0.75rem;   
+  }      
+  
+  .floating-window {     
+    display: none;   
+  } 
+}

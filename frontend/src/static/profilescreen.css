@@ -1,0 +1,51 @@
+/* :root {
+    --background: #121212;
+    --surface: #1e1e1e;
+    --surface-light: #2d2d2d;
+    --primary: #bb86fc;
+    --primary-variant: #3700b3;
+    --secondary: #03dac6;
+    --error: #cf6679;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-disabled: rgba(255, 255, 255, 0.5);
+    --border: rgba(255, 255, 255, 0.12);
+    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    --hover-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  } */
+  
+
+  
+
+  
+  .app1 {
+    padding-top: 60px;
+    width: 100%;
+    background: #0a0a0a url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+
+  }
+  
+  a {
+    color: #bb86fc;
+    text-decoration: none;
+    transition:  all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  a:hover {
+    color: #03dac6;
+  }
+  
+  button {
+    cursor: pointer;
+    font-family: inherit;
+    transition:  all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  @media (max-width: 768px) {
+    .app {
+      padding: 20px 15px;
+    }
+  }
+  
+  
