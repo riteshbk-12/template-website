@@ -32,18 +32,15 @@
 - **Responsive layout and search/filter options**
 
 ## 📸 User Interface Screenshots
-
-## 📸 User Interface Screenshots
-
 ---
 
 ### 🛠️ Admin Panel
 
 <p align="center">
-  <img src="./imagefolder/dashboard.jpg" width="400"/>
-  <img src="./imagefolder/user contribution page.jpg" width="400"/>
-  <img src="./imagefolder/manage template page.jpg" width="400"/>
-  <img src="./imagefolder/user management .jpg" width="400"/>
+  <img src="./imagefolder/dashboard.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/user contribution page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/manage template page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/user management .jpg" style="width:400px; height:260px; margin:10px;" />
 </p>
 
 ---
@@ -51,8 +48,8 @@
 ### 🔐 User/Admin Authentication
 
 <p align="center">
-  <img src="./imagefolder/user login.jpg" width="400"/>
-  <img src="./imagefolder/signup page.jpg" width="400"/>
+  <img src="./imagefolder/user login.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/signup page.jpg" style="width:400px; height:260px; margin:10px;" />
 </p>
 
 ---
@@ -60,16 +57,16 @@
 ### 👤 User Pages
 
 <p align="center">
-  <img src="./imagefolder/homepage.jpg" width="400"/>
-  <img src="./imagefolder/doc page.jpg" width="400"/>
-  <img src="./imagefolder/component info page.jpg" width="400"/>
-  <img src="./imagefolder/templatepage.jpg" width="400"/>
-  <img src="./imagefolder/template detail page.jpg" width="400"/>
-  <img src="./imagefolder/icons page.jpg" width="400"/>
-  <img src="./imagefolder/icons info page.jpg" width="400"/>
-  <img src="./imagefolder/add page.jpg" width="400"/>
-  <img src="./imagefolder/editor page.jpg" width="400"/>
-  <img src="./imagefolder/user dashboard.jpg" width="400"/>
+  <img src="./imagefolder/homepage.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/doc page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/component info page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/templatepage.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/template detail page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/icons page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/icons info page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/add page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/editor page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/user dashboard.jpg" style="width:400px; height:260px; margin:10px;" />
 </p>
 
 ---
@@ -77,7 +74,7 @@
 ### 🧠 Additional Feature – AI Templates
 
 <p align="center">
-  <img src="./imagefolder/AIgenerated page.jpg" width="400"/>
+  <img src="./imagefolder/AIgenerated page.jpg" style="width:400px; height:260px; margin:10px;" />
 </p>
 
 
