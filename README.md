@@ -32,7 +32,8 @@
 - **Responsive layout and search/filter options**
 
 ## 📸 User Interface Screenshots
-
+<img src="./imagefolder/dashboard.jpg" width="250" />
+<img src="./imagefolder/user contribution page.jpg" width="250">
 
 
 ## 🛠 Get Started
