@@ -7,10 +7,10 @@
 - **Frontend**: React.js  
 - **Backend**: Node.js, Express.js  
 - **Database**: PostgreSQL  
-- **Authentication**: Passport.js (Local, Google, GitHub)  
+- **Authentication**: Passport.js (Local, Google)  
 - **File Uploads**: Multer  
 - **Preview & Render**: Live template/component previews  
-- **Storage**: File system (public directory) or cloud options  
+- **Storage**: File system (public directory)  
 
 ## 🚀 Key Features
 
@@ -37,10 +37,10 @@
 ### 🛠️ Admin Panel
 
 <p align="center">
-  <img src="./imagefolder/dashboard.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/user contribution page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/manage template page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/user management .jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/dashboard.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/user contribution page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/manage template page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/user management .jpg" style="width:400px; height:260px; margin:15px;" />
 </p>
 
 ---
@@ -48,8 +48,8 @@
 ### 🔐 User/Admin Authentication
 
 <p align="center">
-  <img src="./imagefolder/user login.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/signup page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/user login.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/signup page.jpg" style="width:400px; height:260px; margin:15px;" />
 </p>
 
 ---
@@ -57,16 +57,16 @@
 ### 👤 User Pages
 
 <p align="center">
-  <img src="./imagefolder/homepage.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/doc page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/component info page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/templatepage.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/template detail page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/icons page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/icons info page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/add page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/editor page.jpg" style="width:400px; height:260px; margin:10px;" />
-  <img src="./imagefolder/user dashboard.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/homepage.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/doc page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/component info page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/templatepage.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/template detail page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/icons page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/icons info page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/add page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/editor page.jpg" style="width:400px; height:260px; margin:15px;" />
+  <img src="./imagefolder/user dashboard.jpg" style="width:400px; height:260px; margin:15px;" />
 </p>
 
 ---
@@ -74,7 +74,7 @@
 ### 🧠 Additional Feature – AI Templates
 
 <p align="center">
-  <img src="./imagefolder/AIgenerated page.jpg" style="width:400px; height:260px; margin:10px;" />
+  <img src="./imagefolder/AIgenerated page.jpg" style="width:400px; height:260px; margin:15px;" />
 </p>
 
 
