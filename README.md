@@ -31,7 +31,7 @@
 - **Reusable component system for frontend**
 - **Responsive layout and search/filter options**
 
-## 📸 App Screenshots
+## 📸 User Interface Screenshots
 
 
 ## 🛠 Get Started
