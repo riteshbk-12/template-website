@@ -32,8 +32,56 @@
 - **Responsive layout and search/filter options**
 
 ## 📸 User Interface Screenshots
-<img src="./imagefolder/dashboard.jpg" width="250" />
-<img src="./imagefolder/user contribution page.jpg" width="250">
+
+## 📸 User Interface Screenshots
+
+---
+
+### 🛠️ Admin Panel
+
+<p align="center">
+  <img src="./imagefolder/dashboard.jpg" width="400"/>
+  <img src="./imagefolder/user contribution page.jpg" width="400"/>
+  <img src="./imagefolder/manage template page.jpg" width="400"/>
+  <img src="./imagefolder/user management .jpg" width="400"/>
+</p>
+
+---
+
+### 🔐 User/Admin Authentication
+
+<p align="center">
+  <img src="./imagefolder/user login.jpg" width="400"/>
+  <img src="./imagefolder/signup page.jpg" width="400"/>
+</p>
+
+---
+
+### 👤 User Pages
+
+<p align="center">
+  <img src="./imagefolder/homepage.jpg" width="400"/>
+  <img src="./imagefolder/doc page.jpg" width="400"/>
+  <img src="./imagefolder/component info page.jpg" width="400"/>
+  <img src="./imagefolder/templatepage.jpg" width="400"/>
+  <img src="./imagefolder/template detail page.jpg" width="400"/>
+  <img src="./imagefolder/icons page.jpg" width="400"/>
+  <img src="./imagefolder/icons info page.jpg" width="400"/>
+  <img src="./imagefolder/add page.jpg" width="400"/>
+  <img src="./imagefolder/editor page.jpg" width="400"/>
+  <img src="./imagefolder/user dashboard.jpg" width="400"/>
+</p>
+
+---
+
+### 🧠 Additional Feature – AI Templates
+
+<p align="center">
+  <img src="./imagefolder/AIgenerated page.jpg" width="400"/>
+</p>
+
+
+
 
 
 ## 🛠 Get Started
